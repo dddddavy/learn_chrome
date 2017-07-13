@@ -4,4 +4,4 @@ a easy clock extension on Chrome
 
 example is as follow:
 
-![example](pic\example.png)
+![example](pic/example.png)

@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "anti-zhihu",
+    "version": "1.0",
+    "description": "干活的时候不要看知乎",
+    "content_scripts": [
+        {
+            "matches": ["*://www.zhihu.com/"],
+            "js": ["js/jquery.js", "js/zhi.js"]
+        }
+    ]
+}
